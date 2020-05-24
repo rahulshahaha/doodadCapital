@@ -151,7 +151,7 @@ ul#nav li {
    display: inline-block;
 }
 ul#nav > li.active a {
-   background: #11ABB0;
+   background: rgb(0, 7, 57);
    color: #fff !important;
 }
 
@@ -173,7 +173,9 @@ ul#nav li a {
 
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li:hover > a,
-ul#nav li.active a { color: #11ABB0; }
+ul#nav li.active a { 
+   color: rgb(0, 7, 57);
+}
 
 
 
@@ -184,7 +186,7 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #intro {
-   background: #111 url(../images/intro-bg.jpg) no-repeat center;
+   background: #111 url(../images/intro-bg.jpeg) no-repeat center;
    overflow: hidden;
 }
 
@@ -207,7 +209,9 @@ ul#nav li.active a { color: #11ABB0; }
    margin: 0;
 }
 .slider-text h2 span,
-.slider-text a { color: #11ABB0; }
+.slider-text a { 
+   color: rgb(0, 7, 57);
+ }
 
 .slider-text p {
    font: 17px/36px opensans-light, sans-serif;
@@ -242,7 +246,9 @@ ul#nav li.active a { color: #11ABB0; }
 	transition: all 0.2s ease-in-out;
 }
 
-.flex-direction-nav a:hover { background-color: #11ABB0; }
+.flex-direction-nav a:hover { 
+   background-color: rgb(0, 7, 57);
+}
 
 .flex-direction-nav .flex-next {
 	right: 0px;
@@ -277,9 +283,13 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 #services a, #services a:visited  { color: #C4C4C4; }
-#services a:hover, #services a:focus { color: #11ABB0; }
+#services a:hover, #services a:focus { 
+   color: rgb(0, 7, 57);
+}
 
-#services .section-head h2 { color: #11ABB0; }
+#services .section-head h2 { 
+   color: rgb(0, 7, 57);
+}
 #services .section-head p.desc,
 #services .section-head .intro { color: #57606B; }
 
@@ -424,7 +434,7 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #journal {
-   background-color: #0f9095;
+   background-color: rgb(0, 7, 57);
    padding-top: 156px;
    padding-bottom: 120px;
    color: #7fe6ed;
@@ -658,10 +668,14 @@ ul#nav li.active a { color: #11ABB0; }
 }
 
 #contact a, #contact a:visited  { color: #C4C4C4; }
-#contact a:hover, #contact a:focus { color: #11ABB0; }
+#contact a:hover, #contact a:focus { 
+   color: rgb(0, 7, 57);
+}
 
 #contact .section-head { margin-bottom: 42px; }
-#contact .section-head h2 { color: #11ABB0; }
+#contact .section-head h2 { 
+   color: rgb(0, 7, 57);
+}
 #contact .section-head p.desc,
 #contact .intro { color: #57606B; }
 #contact p {  }
@@ -694,14 +708,14 @@ ul#nav li.active a { color: #11ABB0; }
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+   background-color: rgb(0, 7, 57);
 }
 #contact button.submit {
 	font: 18px/30px montserrat-bold, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-	background: #11ABB0;
+   background: rgb(0, 7, 57);
    padding: 18px 30px;
 	border: none;
    cursor: pointer;
@@ -720,7 +734,7 @@ ul#nav li.active a { color: #11ABB0; }
 	background: #fff;
 }
 #contact span.required {
-	color: #11ABB0;
+   color: rgb(0, 7, 57);
 	font-size: 13px;
 }
 
@@ -732,7 +746,9 @@ ul#nav li.active a { color: #11ABB0; }
    width: 88%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #11ABB0; }
+#message-success { 
+   color: rgb(0, 7, 57);
+}
 
 #message-warning i,
 #message-success i {
@@ -750,7 +766,7 @@ ul#nav li.active a { color: #11ABB0; }
 #contact aside h3 {
    font: 21px/30px montserrat-bold, sans-serif;
    margin-bottom: 18px;
-   color: #11ABB0;
+   color: rgb(0, 7, 57);
 }
 
 
@@ -788,7 +804,9 @@ ul#nav li.active a { color: #11ABB0; }
 .post .post-meta a,
 .post .post-meta a:visited { color: #B9BBBC; }
 .post .post-meta a:hover,
-.post .post-meta a:focus { color: #11ABB0; }
+.post .post-meta a:focus { 
+   color: rgb(0, 7, 57);
+}
 
 .post .post-meta .date {
    margin-bottom: 18px;
@@ -876,7 +894,7 @@ ul#nav li.active a { color: #11ABB0; }
 .post .post-nav li strong {
    font: 15px/30px opensans-bold, sans-serif;
    text-transform: uppercase;
-   color: #11ABB0;
+   color: rgb(0, 7, 57);
    letter-spacing: 1px;
    display: block;
 }
@@ -1006,7 +1024,7 @@ ol.commentlist {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	color:#fff;
-	background: #11ABB0;
+   background: rgb(0, 7, 57);
    padding: 18px 24px;
 	border: none;
    cursor: pointer;
@@ -1021,7 +1039,7 @@ ol.commentlist {
 }
 #comments form button.submit:hover { background: #3d4145; }
 #comments form span.required {
-	color: #11ABB0;
+   color: rgb(0, 7, 57);
 	font-size: 13px;
 }
 
@@ -1070,7 +1088,9 @@ ol.commentlist {
 #blog-entries .post .entry-header h1 a,
 #blog-entries .post .entry-header h1 a:visited { color: #313131; }
 #blog-entries .post .entry-header h1 a:hover,
-#blog-entries .post .entry-header h1 a:focus { color: #11ABB0; }
+#blog-entries .post .entry-header h1 a:focus { 
+   color: rgb(0, 7, 57);
+}
 
 #blog-entries .post .post-content p {
   font: 20px/36px opensans-light, sans-serif;
@@ -1096,7 +1116,9 @@ ol.commentlist {
    -khtml-border-radius: 2px;
 	border-radius: 2px;
 }
-#blog-entries .post-content a.more-link:hover { background: #11ABB0; }
+#blog-entries .post-content a.more-link:hover { 
+   background: rgb(0, 7, 57);
+}
 #blog-entries .post-content a.more-link i { margin-left: 10px; }
 
 /* Pagination */
@@ -1123,7 +1145,9 @@ ol.commentlist {
    display: inline;
    margin-right: 15px;
 }
-#bottom-block .blog-categories li.current a { color: #11ABB0; }
+#bottom-block .blog-categories li.current a { 
+   color: rgb(0, 7, 57);
+}
 #bottom-block .blog-categories a { color: #A0A6AB; }
 #bottom-block .blog-categories a:hover { color: #5B6167; }
 
@@ -1131,7 +1155,7 @@ ol.commentlist {
 #bottom-block .back-to-top a i { margin-left: 6px; }
 #bottom-block .back-to-top a {
    font: 14px/30px opensans-bold, sans-serif;
-   color: #11ABB0;
+   color: rgb(0, 7, 57);
 }
 
 
@@ -1300,7 +1324,7 @@ footer .social-links li:first-child { margin-left: 0; }
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #11ABB0;
+      background-color: rgb(0, 7, 57);
 		position: relative;
       border: none;
       float: right;
@@ -1340,7 +1364,7 @@ footer .social-links li:first-child { margin-left: 0; }
       text-align: left;
    }
    .mobile #nav-wrap ul#nav > li.active a {
-      color: #11ABB0 !important;
+      color: rgb(0, 7, 57) !important;
       background: none;
    }
 
@@ -1605,5 +1629,12 @@ footer .social-links li:first-child { margin-left: 0; }
 
 }
 
+
+/* customs
+   ------------------------------------------------------------------------- */
+
+.boldThis{
+   font-weight: bold;
+}
 
 
