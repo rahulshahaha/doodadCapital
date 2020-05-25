@@ -136,7 +136,7 @@ table {
 }
 
 body {
-   background: #151719 url(../images/bg.png);
+   background: #151719 url(../images/bg.jpg);
 	font: 15px/30px opensans-regular, sans-serif;
 	color: #838C95;
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -275,7 +275,7 @@ hr { border: solid #E0E0E0; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
 text-decoration: none;
 outline: 0;
-color:#11ABB0;
+color:#000000;
 
 -webkit-transition:color .3s ease-in-out;
 -moz-transition:color .3s ease-in-out;
@@ -283,6 +283,18 @@ color:#11ABB0;
 transition:color .3s ease-in-out;
 
 }
+
+#nav-wrap a{
+text-decoration: none;
+outline: 0;
+color:#ffffff;
+
+-webkit-transition:color .3s ease-in-out;
+-moz-transition:color .3s ease-in-out;
+-o-transition:color .3s ease-in-out;
+transition:color .3s ease-in-out;
+}
+
 
 a:hover, a:focus { color:#333; }
 p a, p a:visited { line-height: inherit; }
@@ -438,7 +450,7 @@ dd { margin: 0 0 0 20px; }
 /*  5. Images  --------------------------------------------------------- */
 
 img {
-   max-width: 100%;
+   max-width: 140%;
    height: auto;
 }
 
