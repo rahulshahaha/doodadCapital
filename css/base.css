@@ -276,6 +276,7 @@ a, a:visited {
 text-decoration: none;
 outline: 0;
 color:#000000;
+text-decoration: underline;
 
 -webkit-transition:color .3s ease-in-out;
 -moz-transition:color .3s ease-in-out;
