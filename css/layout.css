@@ -443,7 +443,10 @@ ul#nav li.active a {
    color: #000000;
 }
 
-#journal a, #journal a:visited  { color: #000000; }
+#journal a, #journal a:visited  { 
+   color: #000000;
+   text-decoration: none; 
+}
 #journal a:hover, #journal a:focus { color: #005757; }
 
 #journal .section-head h2 { color: #000000; }
@@ -847,7 +850,10 @@ ul#nav li.active a {
   margin-top: 18px;
   font-family: opensans-light, sans-serif;
 }
-.post .post-content .tags a { font-family: opensans-bold, sans-serif; }
+.post .post-content .tags a { 
+   font-family: opensans-bold, sans-serif;
+   text-decoration: none;
+ }
 
 /* bio */
 .post .bio {
@@ -1089,7 +1095,10 @@ ol.commentlist {
    border-bottom: 1px solid #E0E0E0;
 }
 #blog-entries .post .entry-header h1 a,
-#blog-entries .post .entry-header h1 a:visited { color: #313131; }
+#blog-entries .post .entry-header h1 a:visited { 
+   color: #313131; 
+   text-decoration: none;
+}
 #blog-entries .post .entry-header h1 a:hover,
 #blog-entries .post .entry-header h1 a:focus { 
    color: #000000;
@@ -1107,6 +1116,7 @@ ol.commentlist {
    background: #c0c0c0;
    color: #000000;
    display: inline-block;
+   text-decoration: none;
 
    -webkit-transition: all 200ms ease-in-out;
 	-moz-transition: all 200ms ease-in-out;
